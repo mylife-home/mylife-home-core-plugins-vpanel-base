@@ -6,5 +6,6 @@ module.exports = {
 
   // converters
   BinaryToPercent     : require('./lib/binary-to-percent'),
-  PercentToBinary     : require('./lib/percent-to-binary')
+  PercentToBinary     : require('./lib/percent-to-binary'),
+  SwitchToButton     : require('./lib/switch-to-button')
 };
