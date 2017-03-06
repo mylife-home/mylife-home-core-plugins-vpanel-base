@@ -8,5 +8,10 @@ module.exports = {
   BinaryToPercent     : require('./lib/binary-to-percent'),
   PercentToBinary     : require('./lib/percent-to-binary'),
   SwitchToButton      : require('./lib/switch-to-button'),
-  BinaryToPulse       : require('./lib/binary-to-pulse')
+  BinaryToPulse       : require('./lib/binary-to-pulse'),
+
+  // constants
+  ConstantBinary      : require('./lib/constant-binary'),
+  Constant_0_100      : require('./lib/constant-0-100'),
+  Constant_0_255      : require('./lib/constant-0-255'),
 };
